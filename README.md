@@ -29,3 +29,4 @@ Improve download speeds and reduce strain on your Internet connection at LAN par
 ##########################################################################
 
 
+ `git clone -b master http://github.com/godzivan/lancache-installer`
