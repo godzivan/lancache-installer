@@ -30,3 +30,17 @@ Improve download speeds and reduce strain on your Internet connection at LAN par
 
 
  `git clone -b master http://github.com/godzivan/lancache-installer`
+
+## Traffic Monitoring on CLI
+
+	A) Monitor through nload
+	   apt-get install nload -y
+	   nload -U G -u M -i 102400 -o 102400 (shows bandwith in MByte/s)
+	   or
+	   nload -U G -u m -i 1024000 -o 1024000 (shows bandwith in Mbit/s, scales graph to 1 Gbit/s)
+	   
+	B) Monitor network usage through iftop
+	   apt-get install iftop -y
+	   iftop -i eth0
+	   (Instead of eth0 just use your physical interface)
+     
